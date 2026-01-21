@@ -1,13 +1,13 @@
-package com.example.demo;
+package org.fhc.cardsservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class CardsServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(CardsServiceApplication.class, args);
     }
 
 }
