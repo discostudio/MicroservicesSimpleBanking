@@ -11,7 +11,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Accounts extends BaseEntity {
-
+    // teste
     private Long customerId;
     @Id
     private Long accountNumber;
