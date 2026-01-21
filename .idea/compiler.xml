@@ -3,7 +3,7 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Annotation profile for LoanService" enabled="true">
+      <profile name="Annotation profile for CardsService" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -12,12 +12,14 @@
         </processorPath>
         <module name="AccountsService" />
         <module name="LoanService" />
+        <module name="CardsService" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="AccountsService" options="-parameters" />
+      <module name="CardsService" options="-parameters" />
       <module name="LoanService" options="-parameters" />
     </option>
   </component>
