@@ -12,7 +12,7 @@ public record LoanDto(@Schema(name = "Cel Phone", description = "Mobile name of 
                       String mobileNumber,
                       @Schema(name = "Loan Number", description = "Loan number field")
                       @NotEmpty(message = "Field Loan Number cannot be empty.")
-                      @Pattern(regexp = "(^$|[0-9]{12})", message = "Field mobileNumber must have 12 numeric digits.")
+                      @Pattern(regexp = "(^$|[0-9]{12})", message = "Field loanNumber must have 12 numeric digits.")
                       String loanNumber,
                       @Schema(name = "Loan Type", description = "Loan type field")
                       @NotEmpty(message = "Field Loan Type cannot be empty.")
